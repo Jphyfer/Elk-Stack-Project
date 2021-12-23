@@ -115,6 +115,7 @@ The playbook implements the following tasks:
 ![task 5](https://user-images.githubusercontent.com/84148317/147289274-f8b02820-76a4-49ce-998b-399ce78bbd81.PNG)
 
 * The seventh and last task simply makes sure to start the docker service on boot of the VM.
+
 ![task 6](https://user-images.githubusercontent.com/84148317/147289275-8a0239c5-cd6e-400c-9b21-78332d2b3c9d.PNG)
 
 
