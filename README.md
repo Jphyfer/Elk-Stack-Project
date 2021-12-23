@@ -4,11 +4,18 @@ Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/Jphyfer/Elk-Stack-Project/blob/4098af86134ff14c782458582e1cfaf033bb4286/Diagrams/Elk%20Stack%20Project%20Diagram.png
+![Elk Stack Project Diagram](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Diagrams\Elk Stack Project Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .YML file may be used to install only certain pieces of it, such as Filebeat.
 
-Pentest.yml
+![pentest.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\pentest.yml)
+![Hosts File](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\Hosts File)
+![ansible.cfg](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\ansible.cfg)
+![install-elk.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\install-elk.yml)
+![filebeat-playbook.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\filebeat-playbook.yml)
+![filebeat-config.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\filebeat-config.yml)
+![metricbeat-playbook.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\metricbeat-playbook.yml)
+![metricbeat-config.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\metricbeat-config.yml)
 
 This document contains the following details:
 - Description of the Topologuy
