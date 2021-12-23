@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .YML file may be used to install only certain pieces of it, such as Filebeat.
 
-[pentest.yml](https://github.com/Jphyfer/Elk-Stack-Project/blob/d6f8dff25fdc2528ab43b0bf31cca73db8b31775/Ansible/pentest.yml)
+[pentest.yml](/Ansible/pentest.yml)
 [Hosts File](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\Hosts File)
 [ansible.cfg](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\ansible.cfg)
 [install-elk.yml](C:\Users\Graygear\Source\Repos\Jphyfer\Elk-Stack-Project\Ansible\install-elk.yml)
