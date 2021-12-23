@@ -159,9 +159,14 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the playbook YAML file to Ansible file in the container under /etc/ansible.
 
-- Update the hosts file to include both webservers and their Ips and in a separate line the ELK server and it IP. You will specify which machine to run in the YAML file under the hosts line where you could put webservers for filebeat and metricbeat or elk to install the elk installation.
+- Update the hosts file to include both webservers and their IPS and in a separate line the ELK server and its IP. You will specify which machine to run in the YAML file under the hosts line where you could put webservers for filebeat and metricbeat or elk to install the elk installation.
+
+ ![Host File machines](https://user-images.githubusercontent.com/84148317/147289507-ef575c7d-6d26-4df0-8149-04943d9668a3.PNG)
+
 
 - Run the playbook, and navigate to http://[your.VM.IP]:5601/app/kibana to check that the installation worked as expected.
+- In Kibana you will move to the data you are getting, selecting on the appropriate system and scrolling down to check data.
+- One the data is checked you can enter your dashboard.
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
