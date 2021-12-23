@@ -107,9 +107,13 @@ The playbook implements the following tasks:
 * The second, third and fourth tasks installs docker.io, python3-pip and docker for python3-pip.
 ![Task 2](https://user-images.githubusercontent.com/84148317/147289246-a7fb9581-d276-43d6-8aae-a09934560772.PNG)
 * The fifth task add more system memory to the vm and is set at 262144.
+
 ![task 3](https://user-images.githubusercontent.com/84148317/147289255-c96d0d20-16f4-4ccb-ab6a-82057f4d52eb.PNG)
+
 * The sixth task launches a elk container and opens it to ports 5601:5601,9200:9200,5044:5044.
+
 ![task 5](https://user-images.githubusercontent.com/84148317/147289274-f8b02820-76a4-49ce-998b-399ce78bbd81.PNG)
+
 * The seventh and last task simply makes sure to start the docker service on boot of the VM.
 ![task 6](https://user-images.githubusercontent.com/84148317/147289275-8a0239c5-cd6e-400c-9b21-78332d2b3c9d.PNG)
 
