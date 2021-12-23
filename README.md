@@ -155,5 +155,11 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
+* Sudo dock start (container name)
+* sudo docker attach (container name)
+* Make sure Hosts file have correct IP for machines and Make sure anisible config has correct remote host
+* move to ansible container with /etc/ansible
+* Copy yml file into ansible 
+* Run command ansible-playbook (YML file)
 
 
