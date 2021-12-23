@@ -4,11 +4,11 @@ Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/Virtual_Infastructure_Graph.png)
+https://github.com/Jphyfer/Elk-Stack-Project/blob/4098af86134ff14c782458582e1cfaf033bb4286/Diagrams/Elk%20Stack%20Project%20Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .YML file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+Pentest.yml
 
 This document contains the following details:
 - Description of the Topologuy
